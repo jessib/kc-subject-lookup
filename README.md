@@ -1,5 +1,6 @@
 # kc-subject-lookup
-tool for lookup in King County WA Jail Lookup service
+tool for lookup in King County WA Jail Lookup service. Here is url of service: https://dajd-jms.powerappsportals.us/public/subject-lookup/
+This currently only looks at "Subjects Booked in Last 24 Hours" but that could be changed, and now only searches last names written in the file.
 
 Need node and npm
  - works with node v20.10.0
