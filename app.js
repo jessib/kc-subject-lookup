@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 
 // We will presumably want to read from a csv
-const lastNames = ['msadofhsaoi', "m*", "c*", "smith"];  //'miles'; //'brady'; //'cruz';
+const lastNames = ["stewart", "st*", "smith"];
 
 // Open the installed Chromium. We use headless: false
 // to be able to inspect the browser window.
@@ -45,8 +45,8 @@ for (const lastName of lastNames) {
 
 }
 
-// Pause for 10 seconds, to see what's going on.
-await new Promise(r => setTimeout(r, 10000));
+// Pause for 5 seconds, to see what's going on.
+await new Promise(r => setTimeout(r, 5000));
 
 // Turn off the browser to clean up after ourselves.
 await browser.close();
